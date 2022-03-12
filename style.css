@@ -2,8 +2,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 body {
-    background: #cccccc;
+
 }
 
 p {
@@ -20,4 +24,20 @@ em strong {
 
 #banner {
     width: 100%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.principal {
+    background-color: #cccccc;
+}
+
+.beneficios {
+    background-color: white;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
