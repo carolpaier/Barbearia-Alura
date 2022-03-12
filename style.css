@@ -2,6 +2,19 @@ h1 {
     text-align: center;
 }
 
+body {
+    background: #cccccc;
+}
+
 p {
     text-align: center;
 }
+
+em strong {
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
+
