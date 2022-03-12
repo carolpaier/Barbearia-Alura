@@ -1,9 +1,9 @@
-h1 {
+.titulo-centralizado {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
+.titulo-principal {
+    padding-left: 20px;
 }
 
 body {
@@ -32,12 +32,22 @@ em strong {
 
 .principal {
     background-color: #cccccc;
+    padding: 30px;
 }
 
 .beneficios {
     background-color: white;
+    padding-left: 20px;
 }
 
 .imagembeneficios {
     width: 50%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 25%;
+    font-size: 20px;
 }
