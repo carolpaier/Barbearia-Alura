@@ -36,6 +36,7 @@ nav a:hover {
 
 footer {
     text-align: center;
+    color: white;
     background: url("img/bg.jpg");
     padding: 40px 0;
 }
@@ -55,7 +56,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p  {
+form label, form legend  {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -70,4 +71,22 @@ form label, form p  {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+   width: 50%;
+   padding: 15px 0;
+   background: teal;
+   color: #BBBBBB;
+   font-weight: bold;
+   font-size: 20px;
+   border: none;
+   border-radius: 6px;
+   transition: 0.5s background;
+}
+
+.enviar:hover {
+    background: rgb(0, 77, 77);
+    cursor: pointer;
+    transform: scale(1.005);
 }
