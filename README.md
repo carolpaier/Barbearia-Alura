@@ -1,4 +1,3 @@
-# Barbearia Alura
 ### Repositório do Curso de HTML5 e CSS3 - Formação Front-End One
 Instrutor: [Pedro Marins](https://www.linkedin.com/in/pedromarins/)
 
