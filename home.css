@@ -40,6 +40,7 @@ nav a:hover {
     margin-top: 10px;
     text-align: center;
     font-size: 20px;
+    clear: left;
 }
 
 .titulo-principal {
@@ -62,7 +63,7 @@ em strong {
     text-align: center;
 }
 
-#banner {
+.banner {
     width: 100%;
 }
 
@@ -90,4 +91,10 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+.utensilios {
+    width: 100px;
+    float: left;
+    margin: 20px;
 }
