@@ -131,7 +131,7 @@ footer {
         position: static;
     }
 
-    .tipobenef {
+    .tipobenef .itens {
         text-align: center;
         display: grid;
     }
