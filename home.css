@@ -131,4 +131,7 @@ footer {
         position: static;
     }
 
+    .tipobenef {
+        display: flex;
+    }
 }
