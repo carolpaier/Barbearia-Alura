@@ -119,7 +119,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .mapa-conteudo, .video .tipobenef {
+    .caixa, .principal, .mapa-conteudo, .video .tipobenef .itens {
         width: auto;
     }
 
@@ -131,8 +131,7 @@ footer {
         position: static;
     }
 
-    .tipobenef .itens {
-        text-align: center;
-        display: grid;
+    .tipobenef {
+        display:table-cell
     }
 }
