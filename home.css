@@ -69,13 +69,14 @@ em strong {
 
 .tipobenef {
     font-size: 20px;
-    padding: 10px;
+    padding: 2%;
+    text-align: center;
     text-decoration: none;
 }
 
 .itens {
     display: inline;
-    margin: 0 0 0 120px;
+    margin: 0 0 0 80px;
     font-weight: bold;
     color: teal;
 }
@@ -131,8 +132,10 @@ footer {
         position: static;
     }
 
-    .tipobenef {
-        display:contents;
+    .itens {
+        display: contents;
         text-align: center;
+        margin: 0;
+        
     }
 }
