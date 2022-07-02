@@ -95,6 +95,10 @@ form label, form legend  {
     transform: scale(1.005);
 }
 
+.formulario {
+    margin-left: 2px;
+}
+
 table {
     margin: 20px 0 40px;
 }
@@ -111,7 +115,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa {
+    .caixa, .formulario {
         width: auto;
     }
 
@@ -121,6 +125,10 @@ td, th {
 
     nav {
         position: static;
+    }
+
+    .formulario {
+        margin-left: 2px;
     }
 
 }
